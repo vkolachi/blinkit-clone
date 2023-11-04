@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   position: sticky;
+   top: 1px;
+   background-color: white;
+}
+.btn-login{
+   background-color: transparent !important;
+}
+ a>svg{
+    width: 30px;
+    color:#1f1f1f;
+ }
+ .btn-cart>a>svg{
+    color: white;
+ }
+ .nav-del-location{
+   line-height: 5px;
+   
+ }
+ .nav-search{
+    border: 1px solid #eeeeee;
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 3px black;
+ }
+ .nav-search>input{
+   border: none;
+   background-color: transparent;
+ }
+ .btn-login{
+   background-color: transparent;
+ }
+ /* hero section */
+ .hero-section>img{
+    width:80%; 
+   
+ }
+ /* section-2 */
+ .container-1{
+    width:80%; 
+    overflow-x: scroll;
+   
+    overflow-y: scroll;
+    margin: auto;
+
+ }
+ .card1{
+    white-space: nowrap;
+    margin-inline: 10px;
+
+ }
+ /* Catergories */
+ .container-2{
+    width: 80%;
+    margin: auto;
+    overflow-x: hidden;
+ }
+ .my-cart{
+    width: 150px;
+    height: 150px;
+ }
+
+ /* <!--Dairy,Breads & Eggs--> */
+ .productCart{
+   border:2px solid black;
+   width: fit-content;
+   border-radius: 5px;
+   box-shadow: 0px 0px 5px black;
+   border: none;
+ }
+ .foot-card-bottom>p{
+  
+   color: #948f8f;
+ 
+  
+ }
+  .price>button{
+   border-radius: 5px;
+ 
+  
+   
+  }
+  .scrool-section{
+   width: 80%;
+   margin: auto;
+   white-space: no-wrap;
+   overflow-x: scroll;
+   overflow-y: scroll;
+  }
+  .scrool-section>.productCart{
+   margin: 20px;
+   padding: 0px 10px 20px 10px;
+   
+   
+  }
+  .Section-4>h2 {
+    /* margin-right:60%; */
+
+  }
+  .footer-Quotes{
+   margin-top: 50px;
+   font-size: 1.5rem;
+  
+  }
+  .foot-card-bottom>h5{
+   font-size: 15px;
+  }
+/* footer section */
+.my-footer{
+   width: 80%;
+   margin: auto;
+}
+.useful-links{
+   flex: 1;
+}
+.categories{
+   flex: 3;
+}
+table{
+   width: 100%;
+}
+.row1-test>h5{
+   padding-right: 30px;
+}
+.download-section>button{
+   color: #0d1431;
+   font-weight: 500;
+}
+.download-btn{
+  background-color: #213b50;
+  color: white !important;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  padding: 5px 45px;
+  font-size: 15px;
+}
+.icons{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color:#1f1f1f ;
+   margin-inline: 1rem;
+}
+
+.icons>i{
+  font-size: 1.5rem;
+ 
+}
+.row2,.row1{
+   margin-top: 40px;
+}
+/*media Query*/
+@media screen  and (max-width:768px){
+   .nav-head{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    
+   }
+   .nav-logo,.nav-del-location{
+      line-height: 20px;
+    
+   }
+   .nav-search,.btn-cart{
+      width: 100%;
+   }
+   .btn-login{
+      background-color: transparent !important;
+      font-size: 20px !important;
+      margin: 10px;
+   }
+  .row1,.row2>div{
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+  }
+  .useful-links,.download-section,.footer-icons,.btn-login,.nav-logo{
+   margin: 10px;
+  }
+  .Section-4>h2{
+  text-align: center;
+  }
+ 
+}
